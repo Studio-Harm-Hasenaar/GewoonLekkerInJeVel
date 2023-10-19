@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sail&display=swap');
+:root{
+    --white-color:#FFFFFF; 
+    --grey-color:#e9e2e2; 
+    --gold-color:#A29061; 
+    --pink-color:#D40050; 
+    --purple-color:#622181; 
+    --green-color:#38A962; 
+    --orange-color:#F29400; 
+    --softpink-color:#D16279; 
+    --softblue-color:#A7B5DC; 
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+html,body{
+    width:100%;
+    width:100vw;
+    background:#FFF;
+}
+
+#head{
+    width:100%;
+    height:600px;
+    text-align:center;
+    margin-bottom:75px;
+}
+
+#topmenu{
+    height:50px;
+    list-style:none;
+    display:inline-block;
+	overflow:hidden;
+	z-index:9999;
+	background:#FFF;
+}
+#topmenu > li{
+    float:left;
+    cursor:pointer;
+	color:#A29061;
+    font-family: 'Merriweather', serif;
+	height:50px;
+}
+#logo{
+    display:inline-block;
+    width:500px;
+    height:500px;
+    margin:0px auto;
+    padding-top:50px;
+    clear:none;
+}
+
+#contactdetails{
+    transform: rotate(10deg);
+    width:300px;
+    height:300px;
+    border-radius:200px;
+    border:7px dotted var(--gold-color);
+    border-style: dotted;
+    position:absolute;
+    top:225px;
+    right:100px;
+    clear:none;
+}
+
+#contactdetails a{
+	color:#000;
+	text-decoration:none;
+}
+
+#contactdetailsFoot{
+    width:300px;
+    height:300px;
+    border-radius:200px;
+    border:0px dotted #A29061;
+    border-style: dotted;
+    position:relative;
+    text-align: center;
+    margin:0px auto;
+    margin-bottom:25px;
+    display:none;
+	background:url(../img/dots.png);
+	background-size:cover;
+}
+#contactdetailsFoot a{
+	color:#000;
+	text-decoration:none;
+}
+
+#main{
+    width:100%;
+    height:auto;
+    min-height:400px;
+    transition:all 0.5s;
+}
+
+#mainarticle{
+    background: var(--grey-color);
+    text-align: center;
+}
+
+#mainarticle > .page{
+    max-width:800px;
+    margin:0px auto;
+}
+
+#edge{
+    width:100%;
+    height:90px;
+    background: url(../img/edge.png);
+    overflow:hidden;
+    background-size:cover;
+}
+
+.flip{
+    transform: rotateZ(180deg)
+}
+
+.page a{
+	color:#A29061;
+}
+
+
+.page > p{
+    text-align: left;
+}
+
+.page > h1{
+    font-size: 1.5em;
+    margin-bottom:25px;
+	font-family: 'Merriweather', serif;
+}
+.page > h3{
+	width:100%;
+	display:block;
+    font-size: 1em;
+	font-family: 'Merriweather', serif;
+	text-align:left !important;
+}
+
+.page > ul{
+    display:inline-block;
+    text-align:left;
+    margin:25px 0px;
+    margin-bottom:25px;
+	display:block;
+	list-style:none;
+}
+
+.page > ul > li{
+	margin-bottom:10px;
+}
+.page > ul > li::before{
+	content: "\2022 \00a0";
+	color:var(--gold-color);
+	margin-left: 1em;
+}
+
+.handtekening{
+    font-family: 'La Belle Aurore', cursive;
+    display:block;
+    font-size:2.5em;
+    text-align: left;
+    width:100%;
+    clear: both;
+}
+
+#eef{
+    width:100px;
+    height:100px;
+    float:left;
+    clear:both;
+    background: url(../img/eef.jpg);
+    border-radius:50px;
+    background-size:cover;
+    background-position: center center;
+}
+
+#krachtvankleuren,
+#etherischeolien,
+#emotionelebalans,
+#geluksles,
+#persoonlijkecoaching,
+#gelukslesvoorbedrijven{
+    display:none;
+}
+
+blockquote{
+	font-family: 'Sail', serif;
+    font-size:2em;
+    font-style: italic;
+}
+
+.kleuren:hover{
+	color: var(--pink-color) !important;
+}
+.olien:hover{
+	color: var(--purple-color) !important;
+}
+.balans:hover{
+	color: var(--green-color) !important;
+}
+.geluksles:hover{
+	color: var(--orange-color) !important;
+}
+.coaching:hover{
+	color: var(--softpink-color) !important;
+}
+.gelukslesbedrijven:hover{
+	color: var(--softblue-color) !important;
+}
+
+.kleuren.active{
+	color: var(--pink-color) !important;
+}
+.olien.active{
+	color: var(--purple-color) !important;
+}
+.balans.active{
+	color: var(--green-color) !important;
+}
+.geluksles.active{
+	color: var(--orange-color) !important;
+}
+.coaching.active{
+	color: var(--softpink-color) !important;
+}
+.gelukslesbedrijven.active{
+	color: var(--softblue-color) !important;
+}
+
+.hidedesktop{
+	display:none;
+}
+
+@media only screen and (max-width: 1313px) {
+	
+	#topmenu{
+		height:50px;
+		position:relative;
+	}
+	#topmenu > li{
+		float:none;
+		padding:0px 25px;
+	}
+    #contactdetails{
+        display:none;
+    }
+    #contactdetailsFoot{
+        display: block;
+    }
+    #head{
+        height:400px;
+    }
+    #logo{
+        width:300px;
+        height:300px;
+    }
+	.page > *{
+		max-width:90%;
+		margin:0px auto;
+	}
+	
+	.page > ul {
+		max-width:90%;
+		margin-left:2em;
+	}
+	
+	.hidedesktop{
+		display:block;
+	}
+}
+
+@media only screen and (min-width: 1313px) {
+	#topmenu > li::after{
+		content:' /\00a0';
+	}
+	#topmenu >li:last-child:after{
+		content:'';
+	}
+}
