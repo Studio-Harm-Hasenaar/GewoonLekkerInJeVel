@@ -1,18 +1,15 @@
-const menuVisible = false;
-const menuSizes = ['50px', '400px'];
-
 const amountOfBubbles = 50;
 const minSize = 10;
 const maxSize = 20;
 
 const colors = [
-    '#231F20', '#DDDA95', '#D0647A', '#DCECE9', '#F7EAEA',
-    '#FDDDA9', '#E3B6B6', '#B6B8C1', '#A291BE', '#B9CCC8',
-    '#DDDA95', '#D0647A', '#DCECE9', '#F7EAEA', '#FDDDA9',
-    '#E3B6B6', '#B6B8C1', '#A291BE', '#B9CCC8', '#DDDA95',
-    '#D0647A', '#DCECE9', '#F7EAEA', '#FDDDA9', '#E3B6B6',
-    '#B6B8C1', '#A291BE', '#B9CCC8', '#DDDA95', '#D0647A',
-    '#DCECE9'
+	'#231F20', '#DDDA95', '#D0647A', '#DCECE9', '#F7EAEA',
+	'#FDDDA9', '#E3B6B6', '#B6B8C1', '#A291BE', '#B9CCC8',
+	'#DDDA95', '#D0647A', '#DCECE9', '#F7EAEA', '#FDDDA9',
+	'#E3B6B6', '#B6B8C1', '#A291BE', '#B9CCC8', '#DDDA95',
+	'#D0647A', '#DCECE9', '#F7EAEA', '#FDDDA9', '#E3B6B6',
+	'#B6B8C1', '#A291BE', '#B9CCC8', '#DDDA95', '#D0647A',
+	'#DCECE9'
 ];
 
 function setup(){
