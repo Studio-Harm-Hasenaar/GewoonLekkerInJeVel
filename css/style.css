@@ -124,7 +124,7 @@ header {
 header .logo {
 	height: auto;
 	max-width: 100%;
-	padding: 0 3rem;
+	padding: 0 3.125rem;
 	width: 500px;
 }
 
