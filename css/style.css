@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 @import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Sail&display=swap');
-
 
 :root {
 	color-scheme: light only;
@@ -50,10 +48,6 @@ h3 {
 	font-size: 1rem;
 }
 
-h1:first-child {
-	margin-block-start: 0;
-}
-
 a {
 	color: #A29061;
 }
@@ -63,11 +57,7 @@ ul {
 	line-height: 1.5;
 }
 
-p:last-child,
-ul:last-child,
-blockquote:last-child {
-	margin-block-end: 0;
-}
+
 
 img,
 video {
@@ -194,7 +184,7 @@ header #canvas-holder {
 
 /* === article === */
 
-article {
+main {
 	background-color: var(--grey-color);
 	padding: 1rem;
 }
@@ -204,12 +194,14 @@ article li::marker {
 }
 
 blockquote {
-	font-family: 'Sail', serif;
+	font-family: 'La Belle Aurore', cursive;
 	font-size: 2rem;
+	line-height: 1.2;
 	font-style: italic;
 	align-items: center;
 	display: flex;
-	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 blockquote img {
