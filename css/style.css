@@ -27,9 +27,9 @@
 html,
 body {
 	background: #fff;
+	color: var(--black-color);
 	margin: 0;
 	padding: 0;
-	color: var(--black-color);
 }
 
 h1,
@@ -63,8 +63,8 @@ ul {
 
 img,
 video {
-	max-width: 100%;
 	height: auto;
+	max-width: 100%;
 }
 
 img {
@@ -73,14 +73,14 @@ img {
 
 .alignright {
 	float: right;
-	width: 40%;
 	margin: 0 0 1rem 1rem;
+	width: 40%;
 }
 
 .alignleft {
 	float: left;
-	width: 30%;
 	margin: 0 1rem 1rem 0;
+	width: 30%;
 }
 
 form ul {
@@ -88,10 +88,10 @@ form ul {
 }
 
 form li {
+    align-items: center;
+	display: flex;
 	list-style: none;
 	margin: 0 0 .5rem 0;
-	display: flex;
-    align-items: center;
 }
 
 form input {
@@ -109,8 +109,8 @@ button {
 	border-radius: 5px;
 	color: #fff;
 	cursor: pointer;
-	padding: .5rem 1rem;
 	font-size: 1.25rem;
+	padding: .5rem 1rem;
 }
 
 /* === header === */
@@ -149,18 +149,17 @@ header ul li:first-child {
 }
 
 header ul li a {
-	text-decoration: none;
 	padding: .8rem 0;
+	text-decoration: none;
 }
 
 .contactdetails {
 	border: 7px dotted var(--gold-color);
 	border-radius: 50%;
 	border-style: dotted;
-	display: grid;
 	height: 300px;
-	justify-items: center;
 	padding: 30px;
+	text-align: center;
 	width: 300px;
 }
 
@@ -196,12 +195,12 @@ article li::marker {
 }
 
 blockquote {
-	font-family: 'La Belle Aurore', cursive;
-	font-size: 2rem;
-	line-height: 1.2;
-	font-style: italic;
 	align-items: center;
 	display: flex;
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 2rem;
+	font-style: italic;
+	line-height: 1.2;
 	margin-left: 0;
 	margin-right: 0;
 }
@@ -231,8 +230,8 @@ article .page {
 
 .wat-levert-de-training-jou-op {
 	background-color: #fff;
-	padding: 2rem;
 	border-radius: .6rem;
+	padding: 2rem;
 }
 
 .wat-levert-de-training-jou-op h2 {
@@ -320,14 +319,14 @@ a.trainingvoorouders {
 	}
 
 	button {
-		margin: 0 auto;
 		display: block;
+		margin: 0 auto;
 	}
 
 	.formulier .alignright {
-		width: 100%;
 		float: none;
 		margin: 0;
+		width: 100%;
 	}
 
 }
