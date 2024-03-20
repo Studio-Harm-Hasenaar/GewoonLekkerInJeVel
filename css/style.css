@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
 :root {
-	color-scheme: light only;
-
 	--black-color: #2e323b;
 	--white-color: #ffffff;
 	--grey-color: #e9e2e2;
@@ -219,12 +217,8 @@ article .page {
 }
 
 .handtekening {
-	clear: both;
-	display: block;
 	font-family: 'La Belle Aurore', cursive;
-	font-size: 2.5em;
-	text-align: left;
-	width: 100%;
+	font-size: 3rem;
 }
 
 .wat-levert-de-training-jou-op {
@@ -255,7 +249,6 @@ footer {
 	justify-content: center;
 	padding: 120px 0 70px 0;
 }
-
 
 .home:hover a,
 .home h1,
