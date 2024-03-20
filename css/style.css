@@ -5,7 +5,8 @@
 :root {
 	color-scheme: light only;
 
-	--white-color: #FFFFFF;
+	--black-color: #2e323b;
+	--white-color: #ffffff;
 	--grey-color: #e9e2e2;
 	--gold-color: #A29061;
 	--pink-color: #D40050;
@@ -28,6 +29,7 @@ body {
 	background: #fff;
 	margin: 0;
 	padding: 0;
+	color: var(--black-color);
 }
 
 h1,
@@ -140,7 +142,6 @@ header ul li {
 	cursor: pointer;
 	float: left;
 	font-family: 'Merriweather', serif;
-	padding: .8rem 0;
 }
 
 header ul li:first-child {
@@ -149,6 +150,7 @@ header ul li:first-child {
 
 header ul li a {
 	text-decoration: none;
+	padding: .8rem 0;
 }
 
 .contactdetails {
@@ -167,7 +169,7 @@ header ul li a {
 }
 
 .contactdetails a {
-	color: #000;
+	color: var(--black-color);
 	text-decoration: none;
 }
 
@@ -260,7 +262,7 @@ footer {
 .home:hover a,
 .home h1,
 a.home {
-	color: #000;
+	color: var(--black-color);
 }
 
 .krachtvankleuren:hover a,
