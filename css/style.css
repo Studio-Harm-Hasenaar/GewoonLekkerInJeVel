@@ -59,8 +59,6 @@ ul {
 	line-height: 1.5;
 }
 
-
-
 img,
 video {
 	height: auto;
@@ -149,6 +147,7 @@ header ul li:first-child {
 }
 
 header ul li a {
+	display: inline-block;
 	padding: .8rem 0;
 	text-decoration: none;
 }
